@@ -5,8 +5,8 @@ class Shoe
   BRANDS = []
   SIZES = []
 
-  def initialize(shoe)
-    @shoe = shoe 
+  def initialize(brand)
+    @brand = brand 
   end
 
   def cobble
