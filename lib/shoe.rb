@@ -8,11 +8,6 @@ class Shoe
   def initialize(shoe)
     @shoe = shoe 
   end
-  
-  def size=(size)
-    @size = size 
-    SIZE << size 
-  end 
 
   def cobble
     self.condition = "new"
@@ -22,6 +17,11 @@ class Shoe
   def brand=(brand)
     @brand = brand 
     BRANDS << brand 
+  end 
+    
+  def size=(size)
+    @size = size 
+    SIZE << size 
   end 
   
 end
