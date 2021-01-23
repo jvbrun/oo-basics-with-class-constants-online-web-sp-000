@@ -9,10 +9,6 @@ class Shoe
     @shoe = shoe 
   end
   
-  def size 
-    @size = size 
-  end  
-  
   def size=(size)
     @size = size 
     SIZE << size 
