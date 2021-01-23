@@ -16,6 +16,7 @@ class Shoe
   def size=(size)
     @size = size 
     SIZE << size 
+  end 
 
   def cobble
     self.condition = "new"
